@@ -1,0 +1,50 @@
+#id-1 {
+    color: rgb(135, 96, 96);
+}
+.class-1 {
+    color: darkorange;
+}
+
+.class-2 {
+    border-style: solid;
+    border-color: darkred;
+    border-width: 2px;
+}
+
+.link a{
+    color: yellowgreen;
+}
+
+.link :visited{
+    color: green;
+}
+
+.link a:hover{
+    color: white;
+    background-color: black;
+}
+
+.link a:active{
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+}
+
+.link a:focus{
+    border-color:blueviolet;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.menu > .tombol > .list-menu {
+    display: none;
+}
+
+.menu > .tombol:focus > .list-menu {
+    display: block;
+}
+.menu-hover > .list-menu {
+    display: none;
+}
+.menu-hover:hover > .tombol + .list-menu {
+    display: block;
+}

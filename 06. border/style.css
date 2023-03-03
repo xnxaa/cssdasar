@@ -1,0 +1,9 @@
+.border-blue {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+/* 
+border-width: 1px 0 0 0; */
+/* border-radius: 10px 0 0 0; */
+/* position sticky membuat html tidak menghilang saat di scroll*/
