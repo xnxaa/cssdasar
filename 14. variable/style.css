@@ -1,0 +1,36 @@
+:root {
+    --margin-layout: 5px;
+    --background-color-layout: red;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.column {
+    flex-direction: row;
+}
+.navigation {
+    flex: 1;
+    background-color: var(--background-color-layout);
+    margin: var(--margin-layout);
+}
+
+.content {
+    flex: 2;
+    background-color: var(--background-color-layout);
+    min-height: 500px;
+    margin: var(--margin-layout);
+}
+.header {
+    background-color: var(--background-color-layout);
+    height: 100px;
+    margin: var(--margin-layout);
+}
+
+.footer {
+    background-color: var(--background-color-layout);
+    height: 200px;
+    margin: var(--margin-layout);
+}
